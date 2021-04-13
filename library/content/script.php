@@ -10,6 +10,8 @@
 <script src="library/assets/js/core.js"></script>
 <script src="library/assets/js/page/sortable-nestable.js"></script>
 <script src="library/assets/js/chart/knobjs.js"></script>
+<script src="library/form.js" ></script>
+
 <script >
 $(function() {
 "use strict";

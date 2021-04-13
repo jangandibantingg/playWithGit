@@ -2,6 +2,7 @@
 session_start();
 if (isset($_GET['page'])) {
   $page=$_GET['page'];
+  $action=$_GET['action'];
 }
 
 if (empty($_COOKIE['email'])) {

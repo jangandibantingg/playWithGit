@@ -30,7 +30,7 @@
   if(empty($_GET['page'])){
     include 'view/beranda.php';
   }else {
-    include "view/$_GET[page].php";
+    include "view/module/$_GET[page]/index.php";
   }
   ?>
 

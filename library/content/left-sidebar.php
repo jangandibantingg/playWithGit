@@ -8,7 +8,7 @@
             <a href="javascript:void(0)" class="has-arrow arrow-c"><i class="fe fe-airplay"></i><span>Project</span></a>
             <ul>
                 <li class=""><a href="./dashboard.aspx">Dashboard</a></li>
-                <li class=""><a href="project-list.aspx">Project list</a></li>
+                <li class=""><a href="project.aspx">Project list</a></li>
                 <li class=""><a href="./beranda.aspx">Taskboard</a></li>
                 <li class=""><a href="#">Ticket List</a></li>
                 <li class=""><a href="#details">Ticket Details</a></li>

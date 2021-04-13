@@ -4,8 +4,10 @@ RewriteEngine On
 
 RewriteRule ^([a-zA-Z0-9_-]+)\.aspx$ index.php?page=$1 [L]
 
+
 RewriteRule ^webapp/engoncode/auth/login ./view/module/auth/post.php$1 [L]
 RewriteRule ^webapp/engoncode/auth/logout ./view/module/auth/logout.php$1 [L]
+
 
 RewriteRule ^webapp/engoncode/([a-zA-Z0-9_-]+)\/post ./view/module/$1/post.php [L]
 RewriteRule ^webapp/engoncode/([a-zA-Z0-9_-]+)\/data ./view/module/$1/table.php [L]

@@ -3,7 +3,7 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 <link rel="icon" href="library/assets/images/favicon.ico" type="image/x-icon"> <!-- Favicon-->
-<title>TaskBoard - Laravel</title>
+<title>  Management </title>
 <meta name="description" content="Laravel">
 <meta name="author" content="Laravel">
 
