@@ -1,6 +1,5 @@
 # buah apa yang rasanya manis?
 
-![alt text](https://db.codercoffee.id/ss.png)
 
 cooming soon
 
@@ -8,3 +7,7 @@ cooming soon
 * Task Board Project
 * Track Progres
 * COE
+
+
+
+![alt text](https://db.codercoffee.id/ss.png)
