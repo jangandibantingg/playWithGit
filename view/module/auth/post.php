@@ -3,6 +3,7 @@ error_reporting(0);
 // API URL
 require_once '../../../control/module.php';
 
+
 if (empty($_POST['email']) || empty($_POST['password'])) {
   echo "<p class='text-center text-warning'>masukan data dengan lengkap</p>";
 
@@ -27,6 +28,8 @@ if (empty($_POST['email']) || empty($_POST['password'])) {
   $ch = curl_init($url);
 
 
+
+
   // Setup request to send json via POST
   $postField = array(
       'email' => $email,
@@ -35,6 +38,7 @@ if (empty($_POST['email']) || empty($_POST['password'])) {
       'exDate'   => $dateNow,
       'ip'       => $ip
   );
+
 
   $ch = curl_init();
   curl_setopt($ch,CURLOPT_URL, $url );

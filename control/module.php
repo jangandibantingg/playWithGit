@@ -5,7 +5,7 @@ $datetime=date('Y-m-d H:i:s');
 $date=date('Y-m-d');
 $jam=date('H:i"s');
 
-$getUrl="http://127.0.0.1/backend";
+$getUrl="http://127.0.0.1/progres/backend";
 $email = $_COOKIE['email'];
 
 function curl_data($url, $postField){

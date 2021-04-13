@@ -27,33 +27,32 @@
                 <a class="header-brand" href="#"><i class="fe fe-command brand-logo"></i></a>
             </div>
             <div class="card-body">
+
+              <form id="form" action="webapp/engoncode/auth/login" method="post">
+                <p id="info" ></p>
+      
                 <div class="card-title">Login to your account</div>
                 <div class="form-group">
-                    <select class="custom-select">
-                        <option>HR Dashboard</option>
-                        <option>Project Dashboard</option>
-                        <option>Job Portal</option>
-                    </select>
+                    <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                 </div>
                 <div class="form-group">
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                </div>
-                <div class="form-group">
-                    <label class="form-label">Password<a href="forgot-password.html" class="float-right small">I forgot password</a></label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    <label class="form-label">Password<a href="#" class="float-right small">I forgot password</a></label>
+                    <input name="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                 </div>
                 <div class="form-group">
                     <label class="custom-control custom-checkbox">
-                    <input type="checkbox" class="custom-control-input" />
+                    <input type="checkbox" class="custom-control-input" checked/>
                     <span class="custom-control-label">Remember me</span>
                     </label>
                 </div>
                 <div class="form-footer">
-                    <a href="index.html" class="btn btn-primary btn-block" title="">Sign in</a>
+                    <button type="submit" id="submit" class="btn btn-primary btn-primary-block "> <i class="fa fa-lock"></i> Login </button>
                 </div>
+              </form>
+
             </div>
             <div class="text-center text-muted">
-                Don't have account yet? <a href="register.html">Sign up</a>
+                Don't have account yet? <a href="#">Sign up</a>
             </div>
         </div>
     </div>
@@ -88,3 +87,4 @@
 
 <script src="library/assets/bundles/lib.vendor.bundle.js"></script>
 <script src="library/assets/js/core.js"></script>
+<script src="library/form.js" ></script>
