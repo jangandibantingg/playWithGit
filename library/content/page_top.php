@@ -152,7 +152,7 @@
                     <a class="dropdown-item" href="javascript:void(0)"><i class="dropdown-icon fe fe-send"></i> Message</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="javascript:void(0)"><i class="dropdown-icon fe fe-help-circle"></i> Need help?</a>
-                    <a class="dropdown-item" href="login.html"><i class="dropdown-icon fe fe-log-out"></i> Sign out</a>
+                    <a class="dropdown-item" href="webapp/engoncode/auth/logout"><i class="dropdown-icon fe fe-log-out"></i> Sign out</a>
                 </div>
             </div>
         </div>
