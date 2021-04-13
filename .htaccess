@@ -3,11 +3,21 @@
 RewriteEngine On
 
 RewriteRule ^([a-zA-Z0-9_-]+)\.aspx$ index.php?page=$1 [L]
-RewriteRule ^signup\.html$ control/post_signup.php?page=$1 [L]
-RewriteRule ^signin\.html$ control/post_signin.php?page=$1 [L]
-RewriteRule ^logout\.html$ control/logout.php?page=$1 [L]
-RewriteRule ^proses\.html$ control/proses.php?page=$1 [L]
-RewriteRule ^add-project\.html$ control/add-project.php?page=$1 [L]
+
+RewriteRule ^webapp/engoncode/home ./view/module/home/cardReport.php$1 [L]
+RewriteRule ^webapp/engoncode/auth/login ./view/module/login/post.php$1 [L]
+RewriteRule ^webapp/engoncode/auth/logout ./view/module/login/logout.php$1 [L]
+RewriteRule ^webapp/engoncode/([a-zA-Z0-9_-]+)\/post ./view/module/$1/post.php [L]
+RewriteRule ^webapp/engoncode/([a-zA-Z0-9_-]+)\/data ./view/module/$1/table.php [L]
+RewriteRule ^webapp/engoncode/([a-zA-Z0-9_-]+)\/edit/([a-zA-Z0-9_-]+)\/?$ index.php?page=$1&action=edit&id=$2 [L]
+
+RewriteRule ^webapp/engoncode/access/login ./restApi/auth.php$1 [L]
+RewriteRule ^webapp/engoncode/app/([a-zA-Z0-9_-]+)\/post ./restApi/post.php?s=$1 [L]
+RewriteRule ^webapp/engoncode/app/([a-zA-Z0-9_-]+)\/table ./restApi/table.php?s=$1 [L]
+RewriteRule ^webapp/engoncode/record/([a-zA-Z0-9_-]+)\/table/([a-zA-Z0-9_-]+)\/?$   ./restApi/table.php?s=$1&user=$2 [L]
+
+
+
 
 
 Options All -Indexes
