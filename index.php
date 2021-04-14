@@ -1,5 +1,6 @@
 <?php
 session_start();
+include 'control/module.php';
 if (isset($_GET['page'])) {
   $page=$_GET['page'];
   $action=$_GET['action'];

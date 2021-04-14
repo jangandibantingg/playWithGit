@@ -10,10 +10,25 @@ if (isset($_GET['page'])) {
   $action=$_GET['action'];
 }
 
+
+
 // config backend
 $getUrl="http://127.0.0.1/progres/backend";
 // sesion user/
 $email = $_COOKIE['email'];
+$token = $_COOKIE['token'];
+
+if ($action == 'edit') {
+  $urlID="$getUrl/webapp/engoncode/app/$page/table/$_GET[id]/$token";
+  $edit = getValue($urlID);
+}
+
+// fuction cek value
+function getValue($url){
+  $data=json_decode(file_get_contents($url));
+  return $data;
+}
+
 
 // fungtion post
 function curl_data($url, $postField){
