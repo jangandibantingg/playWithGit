@@ -1,8 +1,53 @@
-
-<?php if (isset($_GET['cat'])): ?>
-<?php include 'view/module/board/form.php'; ?>
-<?php endif; ?>
-
+<div class="section-body">
+  <div class="container-fluid">
+      <div class="d-md-flex justify-content-between align-items-center">
+          <ul class="nav nav-tabs page-header-tab">
+              <li class="nav-item"><a class="nav-link active" id="TaskBoard-tab" data-toggle="tab" href="#TaskBoard-list">List View</a></li>
+              <li class="nav-item"><a class="nav-link" id="TaskBoard-tab" data-toggle="tab" href="#TaskBoard-grid">Grid View</a></li>
+          </ul>
+          <div class="header-action d-flex">
+              <div class="input-group mr-2">
+                  <input type="text" class="form-control" placeholder="Search...">
+              </div>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addtask"><i class="fe fe-plus mr-2"></i>Add</button>
+          </div>
+      </div>
+      <div class="row clearfix mt-2">
+          <div class="col-lg-3 col-md-6">
+              <div class="card">
+                  <div class="card-body text-center">
+                      <h6>Planned</h6>
+                      <input type="text" class="knob" value="23" data-width="90" data-height="90" data-thickness="0.1" data-fgColor="#6e7687">
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+              <div class="card">
+                  <div class="card-body text-center">
+                      <h6>In progress</h6>
+                      <input type="text" class="knob" value="43" data-width="90" data-height="90" data-thickness="0.1" data-fgColor="#6e7687">
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+              <div class="card">
+                  <div class="card-body text-center">
+                      <h6>Completed</h6>
+                      <input type="text" class="knob" value="83" data-width="90" data-height="90" data-thickness="0.1" data-fgColor="#6e7687">
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+              <div class="card">
+                  <div class="card-body text-center">
+                      <h6>In Completed</h6>
+                      <input type="text" class="knob" value="12" data-width="90" data-height="90" data-thickness="0.1" data-fgColor="#6e7687">
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
 <div class="section-body">
     <div class="container-fluid">
         <div class="tab-content taskboard">
@@ -382,4 +427,23 @@
             </div>
         </div>
     </div>
+</div>
+
+<div class="section-body">
+  <footer class="footer">
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-md-6 col-sm-12">
+                  Copyright © 2019 <a href="https://themeforest.net/user/puffintheme/portfolio">PuffinTheme</a>.
+              </div>
+              <div class="col-md-6 col-sm-12 text-md-right">
+                  <ul class="list-inline mb-0">
+                      <li class="list-inline-item"><a href="javascript:void(0)">Documentation</a></li>
+                      <li class="list-inline-item"><a href="javascript:void(0)">FAQ</a></li>
+                      <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-outline-primary btn-sm">Buy Now</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </footer>
 </div>

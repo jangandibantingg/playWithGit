@@ -41,7 +41,7 @@ if ($action == 'add' || $action == 'edit'  ) {
                                        <div class="card-options">
 
                                          <label class="custom-switch m-0">
-                                        <a href=" <?php echo "./?page=board&id=$obj->id"; ?> " class="fe fe-clipboard" > </a>
+                                        <a href="<?php echo "./board/project/$obj->id/".url($obj->name).""; ?>" class="fe fe-clipboard" > </a>
                                          </label>
 
                                          <a href=" <?php echo "./?page=$page&action=edit&id=$obj->id"; ?> " class="fe fe-edit-3" ></a>

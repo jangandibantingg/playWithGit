@@ -7,13 +7,13 @@
         <li class="active">
             <a href="javascript:void(0)" class="has-arrow arrow-c"><i class="fe fe-airplay"></i><span>Project</span></a>
             <ul>
-                <li class=""><a href="./dashboard.aspx">Dashboard</a></li>
-                <li class=""><a href="project.aspx">Project list</a></li>
-                <li class=""><a href="./beranda.aspx">Taskboard</a></li>
-                <li class=""><a href="#">Ticket List</a></li>
-                <li class=""><a href="#details">Ticket Details</a></li>
-                <li class=""><a href="#project/clients">Clients</a></li>
-                <li class=""><a href="#project/todo">Todo List</a></li>
+                <li class=""><a href="<?php echo $server; ?>/dashboard.aspx">Dashboard</a></li>
+                <li class=""><a href="<?php echo $server; ?>/project.aspx">Project list</a></li>
+                <li class=""><a href="<?php echo $server; ?>/board.aspx">Taskboard</a></li>
+                <li class=""><a href="<?php echo $server; ?>/coe.aspx">Calendar Of event</a></li>
+                <li class=""><a href="<?php echo $server; ?>/todolist.aspx">Todo List</a></li>
+                <!-- <li class=""><a href="#project/clients">Clients</a></li> -->
+                <!-- <li class=""><a href="#project/todo">Todo List</a></li> -->
             </ul>
         </li>
         <li class="">

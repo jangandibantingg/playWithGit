@@ -1,16 +1,16 @@
-<script src="library/assets/bundles/lib.vendor.bundle.js"></script>
+<script src="<?php echo $server; ?>/library/assets/bundles/lib.vendor.bundle.js"></script>
 
 
-<script src="library/assets/bundles/knobjs.bundle.js"></script>
-<script src="library/assets/bundles/counterup.bundle.js"></script>
-<script src="library/assets/bundles/nestable.bundle.js"></script>
-<script src="library/assets/bundles/c3.bundle.js"></script>
-<script src="library/assets/bundles/apexcharts.bundle.js"></script>
+<script src="<?php echo $server; ?>/library/assets/bundles/knobjs.bundle.js"></script>
+<script src="<?php echo $server; ?>/library/assets/bundles/counterup.bundle.js"></script>
+<script src="<?php echo $server; ?>/library/assets/bundles/nestable.bundle.js"></script>
+<script src="<?php echo $server; ?>/library/assets/bundles/c3.bundle.js"></script>
+<script src="<?php echo $server; ?>/library/assets/bundles/apexcharts.bundle.js"></script>
 
-<script src="library/assets/js/core.js"></script>
-<script src="library/assets/js/page/sortable-nestable.js"></script>
-<script src="library/assets/js/chart/knobjs.js"></script>
-<script src="library/form.js" ></script>
+<script src="<?php echo $server; ?>/library/assets/js/core.js"></script>
+<script src="<?php echo $server; ?>/library/assets/js/page/sortable-nestable.js"></script>
+<script src="<?php echo $server; ?>/library/assets/js/chart/knobjs.js"></script>
+<script src="<?php echo $server; ?>/library/form.js" ></script>
 
 <script >
 $(function() {

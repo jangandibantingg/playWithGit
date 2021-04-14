@@ -13,11 +13,11 @@
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Language</a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#"><img class="w20 mr-2" src="library/assets/images/flags/us.svg">English</a>
+                    <a class="dropdown-item" href="#"><img class="w20 mr-2" src="<?php echo $server; ?>/library/assets/images/flags/us.svg">English</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#"><img class="w20 mr-2" src="library/assets/images/flags/es.svg">Spanish</a>
-                    <a class="dropdown-item" href="#"><img class="w20 mr-2" src="library/assets/images/flags/jp.svg">japanese</a>
-                    <a class="dropdown-item" href="#"><img class="w20 mr-2" src="library/assets/images/flags/bl.svg">France</a>
+                    <a class="dropdown-item" href="#"><img class="w20 mr-2" src="<?php echo $server; ?>/library/assets/images/flags/es.svg">Spanish</a>
+                    <a class="dropdown-item" href="#"><img class="w20 mr-2" src="<?php echo $server; ?>/library/assets/images/flags/jp.svg">japanese</a>
+                    <a class="dropdown-item" href="#"><img class="w20 mr-2" src="<?php echo $server; ?>/library/assets/images/flags/bl.svg">France</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
@@ -49,7 +49,7 @@
                         <li class="online">
                             <a href="javascript:void(0);">
                                 <div class="media">
-                                    <img class="media-object " src="library/assets/images/xs/avatar4.jpg" alt="">
+                                    <img class="media-object " src="<?php echo $server; ?>/library/assets/images/xs/avatar4.jpg" alt="">
                                     <div class="media-body">
                                         <span class="name">Donald Gardner</span>
                                         <span class="message">Designer, Blogger</span>
@@ -61,7 +61,7 @@
                         <li class="online">
                             <a href="javascript:void(0);">
                                 <div class="media">
-                                    <img class="media-object " src="library/assets/images/xs/avatar5.jpg" alt="">
+                                    <img class="media-object " src="<?php echo $server; ?>/library/assets/images/xs/avatar5.jpg" alt="">
                                     <div class="media-body">
                                         <span class="name">Wendy Keen</span>
                                         <span class="message">Java Developer</span>
@@ -73,7 +73,7 @@
                         <li class="offline">
                             <a href="javascript:void(0);">
                                 <div class="media">
-                                    <img class="media-object " src="library/assets/images/xs/avatar2.jpg" alt="">
+                                    <img class="media-object " src="<?php echo $server; ?>/library/assets/images/xs/avatar2.jpg" alt="">
                                     <div class="media-body">
                                         <span class="name">Matt Rosales</span>
                                         <span class="message">CEO, Epic Theme</span>
@@ -85,7 +85,7 @@
                         <li class="online">
                             <a href="javascript:void(0);">
                                 <div class="media">
-                                    <img class="media-object " src="library/assets/images/xs/avatar3.jpg" alt="">
+                                    <img class="media-object " src="<?php echo $server; ?>/library/assets/images/xs/avatar3.jpg" alt="">
                                     <div class="media-body">
                                         <span class="name">Phillip Smith</span>
                                         <span class="message">Writter, Mag Editor</span>

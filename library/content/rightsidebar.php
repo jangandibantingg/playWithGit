@@ -164,10 +164,10 @@
                         <h3>Developer Team</h3>
                         <h4>Hangouts</h4>
                         <ul class="list-unstyled team-info margin-0 p-t-5">
-                            <li><img src="library/assets/images/xs/avatar1.jpg" alt="Avatar"></li>
-                            <li><img src="library/assets/images/xs/avatar2.jpg" alt="Avatar"></li>
-                            <li><img src="library/assets/images/xs/avatar3.jpg" alt="Avatar"></li>
-                            <li><img src="library/assets/images/xs/avatar4.jpg" alt="Avatar"></li>
+                            <li><img src="<?php echo $server; ?>/library/assets/images/xs/avatar1.jpg" alt="Avatar"></li>
+                            <li><img src="<?php echo $server; ?>/library/assets/images/xs/avatar2.jpg" alt="Avatar"></li>
+                            <li><img src="<?php echo $server; ?>/library/assets/images/xs/avatar3.jpg" alt="Avatar"></li>
+                            <li><img src="<?php echo $server; ?>/library/assets/images/xs/avatar4.jpg" alt="Avatar"></li>
                         </ul>
                     </div>
                 </li>
@@ -197,4 +197,4 @@
             </ul>
         </div>
     </div>
-</div> 
+</div>
