@@ -31,7 +31,7 @@ $url="$getUrl/webapp/engoncode/app/$_POST[data]/post";
 
 $data=json_decode(curl_data($url, $postField));
 $result=result($data->result, $_POST['data']);
-var_dump($data);
+
 
 }
 }

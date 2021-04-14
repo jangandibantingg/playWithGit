@@ -41,10 +41,11 @@ if ($action == 'add' || $action == 'edit'  ) {
                                        <div class="card-options">
 
                                          <label class="custom-switch m-0">
-                                        <a href=" <?php echo "./?page=$page&action=edit&id=$obj->id"; ?> " class="fe fe-edit" ></a>
+                                        <a href=" <?php echo "./?page=board&id=$obj->id"; ?> " class="fe fe-clipboard" > </a>
                                          </label>
 
-                                           <a href="#" class="card-options-collapse" data-toggle="card-collapse"><i class="fe fe-chevron-up"></i></a>
+                                         <a href=" <?php echo "./?page=$page&action=edit&id=$obj->id"; ?> " class="fe fe-edit-3" ></a>
+
                                        </div>
                                    </div>
                                    <div class="card-body">
