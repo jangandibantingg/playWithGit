@@ -2,6 +2,7 @@
 <?php if (isset($_GET['cat'])): ?>
 <?php include 'view/module/board/form.php'; ?>
 <?php endif; ?>
+<?php if (empty($_GET['cat'])): ?>
 
 <div class="section-body">
     <div class="container-fluid">
@@ -383,3 +384,5 @@
         </div>
     </div>
 </div>
+
+<?php endif; ?>
