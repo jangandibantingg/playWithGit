@@ -19,7 +19,6 @@
 *.tar.gz
 *.rar
 *backend
-*control
 *.htaccess
 
 
