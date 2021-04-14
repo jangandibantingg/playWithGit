@@ -5,9 +5,17 @@ $datetime=date('Y-m-d H:i:s');
 $date=date('Y-m-d');
 $jam=date('H:i"s');
 
+if (isset($_GET['page'])) {
+  $page=$_GET['page'];
+  $action=$_GET['action'];
+}
+
+// config backend
 $getUrl="http://127.0.0.1/progres/backend";
+// sesion user/
 $email = $_COOKIE['email'];
 
+// fungtion post
 function curl_data($url, $postField){
   $ch = curl_init();
   curl_setopt($ch,CURLOPT_URL, $url );
@@ -23,6 +31,17 @@ function curl_data($url, $postField){
   return $response;
 }
 
+// fuction redirect
+function result($result, $page){
+  if ($result == 'success') {
+    echo "data berhasil disimpan";
+    echo " <meta http-equiv='refresh' content='0;url=./$page.aspx'>";
+  }else {
+    echo $result;
+  }
+}
+
+// tanggal
 function tanggal_indo($tanggal, $cetak_hari = false)
 {
   $createDate = new DateTime($tanggal);
@@ -60,5 +79,3 @@ function tanggal_indo($tanggal, $cetak_hari = false)
 	}
 	return $tgl_indo;
 }
-
- ?>

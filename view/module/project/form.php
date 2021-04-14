@@ -8,15 +8,17 @@
 <h3 class="card-title">New Project</h3>
 </div>
 <div class="card-body">
-<form id="form" action="webapp/engoncode/<?php echo "$page"; ?>/post" method="post" novalidate>
+<form id="form" action="webapp/engoncode/<?php echo "$page"; ?>/post" method="post" validate>
  <div class="form-group">
 <label>Project board name</label>
-<input type="text" name="project" class="form-control" required>
+<input type="text" name="name" class="form-control" required>
+<input type="hidden" name="data" value="<?php echo "$page"; ?>"class="form-control" required>
+
 </div>
 
 <div class="form-group">
 <label>Description</label>
-<textarea name="description" class="form-control" rows="5" cols="30" required></textarea>
+<textarea name="text" class="form-control" rows="5" cols="30" required></textarea>
 </div>
 
 <div class="form-group">
@@ -25,7 +27,7 @@
 </div>
 
 <br>
-<button id="submit" class="btn btn-primary">Submit</button>
+<button id="submit" type="submit" class="btn btn-primary">Submit</button>
 </form>
 <label id="info" ></label>
 </div>
