@@ -2,10 +2,10 @@
            <div class="container-fluid">
                <div class="d-flex justify-content-between align-items-center">
                    <ul class="nav nav-tabs page-header-tab">
-                       <li class="nav-item"><a class="nav-link active" id="Project-tab" data-toggle="tab" href="#Project-OnGoing">OnGoing</a></li>
-                       <li class="nav-item"><a class="nav-link" id="Project-tab" data-toggle="tab" href="#Project-UpComing">UpComing</a></li>
+                       <li class="nav-item"><a class="nav-link active" id="Project-tab" data-toggle="tab" href="#Project-OnGoing">&nbsp;</a></li>
+                       <li class="nav-item"><a class="nav-link" id="Project-tab" data-toggle="tab" href="#Project-UpComing">&nbsp;</a></li>
                    </ul>
-
+<?php echo "$urlID"; ?>
                    <div class="header-action d-md-flex">
                        <a href="./?page=project&action=add" class="btn btn-primary"><i class="fe fe-airplay"></i> New Project </a>
                    </div>

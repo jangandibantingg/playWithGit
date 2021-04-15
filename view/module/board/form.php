@@ -1,4 +1,19 @@
 <div class="section-body">
+           <div class="container-fluid">
+               <div class="d-flex justify-content-between align-items-center">
+                   <ul class="nav nav-tabs page-header-tab">
+                        <li class="nav-item font-weight-bold "> <a href="#" class="nav-link active">   <i class="fe fe-airplay"></i> {Nama Project} </a></li>
+                       <li class="nav-item"><a class="nav-link" id="Project-tab" data-toggle="tab" href="#Project-UpComing">&nbsp;</a></li>
+                   </ul>
+
+                   <div class="header-action d-md-flex">
+                       <!-- <a href="<?php echo $server; ?>/?page=<?php echo $page; ?>&action=add" class="btn btn-primary"><i class="fa fa-columns"></i> Add Columns </a> -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addtask"><i class="fa fa-columns"></i> Add Columns </a></button>
+                   </div>
+               </div>
+           </div>
+</div>
+<div class="section-body">
     <div class="container-fluid">
         <div class="tab-content taskboard">
 
@@ -179,4 +194,3 @@
         </div>
       </div>
     </div>
-    

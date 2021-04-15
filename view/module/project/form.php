@@ -28,6 +28,8 @@
 
 <br>
 <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+<a href="<?php echo "$server/$page.aspx"; ?>" class="btn btn-info">Cancel</a>
+
 </form>
 <label id="info" ></label>
 </div>
@@ -65,6 +67,7 @@
 
   <br>
   <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+  <a href="<?php echo "$server/$page.aspx"; ?>" class="btn btn-info">Cancel</a>
   </form>
   <label id="info" ></label>
   </div>
