@@ -18,7 +18,7 @@ if (empty($_POST['email']) || empty($_POST['password'])) {
   //Convert the binary data into hexadecimal representation.
   $token = bin2hex($token);
 
-  //Print it out for example purposes.
+
 
   $email=$_POST['email'];
   $password=$_POST['password'];

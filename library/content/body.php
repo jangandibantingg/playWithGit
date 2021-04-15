@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <?php include 'head.php'; ?>
@@ -93,6 +92,10 @@
             </div>
         </div>
     </div>
+</div>
+<!--  -->
+
+<!--  -->
 </div>
 <?php include 'library/content/script.php'; ?>
 <!-- Scripts -->

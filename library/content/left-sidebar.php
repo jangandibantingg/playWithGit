@@ -12,6 +12,7 @@
                 <li class=""><a href="<?php echo $server; ?>/board.aspx">Taskboard</a></li>
                 <li class=""><a href="<?php echo $server; ?>/coe.aspx">Calendar Of event</a></li>
                 <li class=""><a href="<?php echo $server; ?>/todolist.aspx">Todo List</a></li>
+                <li class=""><a target="_blank" href="<?php echo $urlID; ?>">Ceck API</a></li>
                 <!-- <li class=""><a href="#project/clients">Clients</a></li> -->
                 <!-- <li class=""><a href="#project/todo">Todo List</a></li> -->
             </ul>
