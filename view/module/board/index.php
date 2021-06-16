@@ -1,4 +1,3 @@
-
 <?php if (isset($_GET['cat'])): ?>
 <?php include 'view/module/board/form.php'; ?>
 <?php endif; ?>
@@ -386,3 +385,49 @@
 </div>
 
 <?php endif; ?>
+
+
+<!-- Add New Task -->
+<div class="modal fade" id="addtask" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="title" id="defaultModalLabel">Add Coloumn</h6>
+            </div>
+            <div class="modal-body">
+                <div class="row clearfix">
+                    <div class="col-12">
+                        <div class="form-group">
+                            <input type="text" name="name" class="form-control" placeholder="Task no.">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-group">
+                            <select class="form-control show-tick">
+                                <option>Select Team</option>
+                                <option>John Smith</option>
+                                <option>Claire Peters</option>
+                                <option>Allen Collins</option>
+                                <option>Cory Carter</option>
+                                <option>Rochelle Barton</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <label>Range</label>
+                        <div class="input-daterange input-group" data-provide="datepicker">
+                            <input type="text" class="form-control" name="start">
+                            <span class="input-group-addon"> to </span>
+                            <input type="text" class="form-control" name="end">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Add</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--  -->
